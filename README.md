@@ -32,6 +32,13 @@ download: s3://cmc-bds-de/wishes/you/good/luck.parquet to ./data.parquet
 TODO:
 + **exercise** Explain how you configured the aws profile indicating the path and the contents of the configuration and the credentials files.
     + **solution** your-solution-here (commit `README.md` to the `exercise_0` branch)
+      + I installed aws cli v2 following the instructions in the link shared above.
+      + In order to configure aws profile "exercise" I used ```aws configure --profile exercise``` passing the **AWS Access Key ID** and the **AWS Secret Access Key** shared in the email.
+      + My aws profile configuration and  credentials profiles are located at the paths below:
+        + ```~/.aws/config```
+          + ![img.png](config-screenshot.png)
+        + ```~/.aws/credentials``` (the credentials in the screenshot below have been redacted)
+          + ![img_1.png](credentials-screenshot.png)
 
 # Exercise 1
 
